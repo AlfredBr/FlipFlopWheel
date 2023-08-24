@@ -36,7 +36,7 @@ internal static class Program
 			if (key.GetValue(target) is int value && value == 0)
 			{
 				key.SetValue(target, newValue);
-				Console.WriteLine($"{key.Name}/{target}: changed from {value} to {newValue}");
+				Console.WriteLine($@"{key.Name}\{target}: changed from {value} to {newValue}");
 			}
 
 			foreach (string subKeyName in key.GetSubKeyNames())
