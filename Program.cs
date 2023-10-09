@@ -17,7 +17,7 @@ internal static class Program
 		}
 		else
 		{
-			Console.WriteLine($"{flipFlopWheel} must run as Administrator.");
+			Console.WriteLine($"{flipFlopWheel} must run as Administrator!");
 		}
 	}
 
