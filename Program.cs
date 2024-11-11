@@ -39,7 +39,7 @@ internal static class Program
 				Console.WriteLine($@"{key.Name}\{target}: changed from {value} to {newValue}");
 			}
 
-			foreach (string subKeyName in key.GetSubKeyNames())
+			foreach (var subKeyName in key.GetSubKeyNames())
 			{
 				try
 				{
